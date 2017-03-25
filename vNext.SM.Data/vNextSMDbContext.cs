@@ -20,6 +20,7 @@ namespace vNext.SM.Data
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
+        int a=10;
             modelBuilder.Conventions.Remove<PluralizingTableNameConvention>();
         }
     }
