@@ -11,7 +11,7 @@ namespace vNext.SM.Data
 
     public class vNextSMDbContext : DbContext
     {
-
+//Test
         public vNextSMDbContext() : base("SMDatabaseConnection")
         {
         }
